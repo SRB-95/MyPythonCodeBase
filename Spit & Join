@@ -1,0 +1,5 @@
+def split_string(string): #create a function
+    new_string=string.split(" ") #split done
+    result = "-".join(new_string) #join done after splitting
+    return result
+split_string(input()) #we called the function
