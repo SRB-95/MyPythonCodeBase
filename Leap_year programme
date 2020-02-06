@@ -1,0 +1,8 @@
+n=int(input("Enter the year:"))
+def leap_year(n):
+    if n%4==0 and (n%100!=0 or n%400==0):
+        leap="True"
+    else:
+        leap="False"
+    return(leap)
+leap_year(n)
