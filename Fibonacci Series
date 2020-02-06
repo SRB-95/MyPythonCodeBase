@@ -1,0 +1,8 @@
+n=int(input("Enter the number of iteration"))
+first=0                     #always constaant in fibonacci series
+second=1                    #always constaant in fibonacci series
+for i in range(n):
+    print(first)
+    temp=first
+    first=second
+    second=temp+second
