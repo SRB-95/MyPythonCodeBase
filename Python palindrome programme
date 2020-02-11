@@ -1,0 +1,10 @@
+n=input("Enter the word:")
+rev_wd=n[::-1]
+if n==rev_wd:
+    print(n,":is palindrome")
+else:
+    print(n,":is not palindrome")
+
+Output:
+Enter the word:MOM
+MOM :is palindrome
