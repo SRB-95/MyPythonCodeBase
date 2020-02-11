@@ -1,0 +1,6 @@
+a="Saumyaranjan"
+b=Counter(a)
+b
+
+Output:
+Counter({'S': 1, 'a': 4, 'u': 1, 'm': 1, 'y': 1, 'r': 1, 'n': 2, 'j': 1})
