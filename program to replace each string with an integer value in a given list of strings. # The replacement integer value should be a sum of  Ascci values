@@ -1,0 +1,14 @@
+# Write a program to replace each string with an integer value in a given list of strings.The replacement integer value should be a sum of  Ascci values of each character of the corresponding string.
+list_rivers  =["Ganges", "Godavari", "Brahmaputra", "Narmada", "Yamuna", "Mahanadi", "Kaveri", "Tapti"]
+count1=0
+for wd in list_rivers:
+    print(wd)
+    counter=0
+    
+    for chr in wd:
+        print(chr)
+        counter =counter+ord(chr)
+        print(counter)
+    list_rivers[count1]=counter
+    count1 +=1
+print(list_rivers)
