@@ -1,0 +1,6 @@
+a=["hapi","Saumya","Monalisha","dpu"]    #list of strings
+a.sort()
+print(a[0])
+
+Output:
+Monalisha
