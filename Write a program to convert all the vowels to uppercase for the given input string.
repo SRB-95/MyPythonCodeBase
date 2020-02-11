@@ -1,0 +1,9 @@
+a="Saumya"
+vowels="aeiou"
+for wd in a:
+    if wd in vowels:
+        print(wd.upper())
+Output:
+A
+U
+A
