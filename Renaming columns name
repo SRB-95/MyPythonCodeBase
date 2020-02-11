@@ -1,0 +1,23 @@
+df
+
+  P	  Q	  R
+A	15	10	14
+B	15	14	18
+C	10	10	15
+D	11	16	15
+
+df.rename({"A":"AA","B":"BB"})
+
+     P	 Q	 R
+AA	15	10	14
+BB	15	14	18
+C	10	10	15
+D	11	16	15
+
+df.rename({"P":"X","Q":"Y"},axis=1)#for column wise
+
+    X	 Y	 R
+A	15	10	14
+B	15	14	18
+C	10	10	15
+D	11	16	15
