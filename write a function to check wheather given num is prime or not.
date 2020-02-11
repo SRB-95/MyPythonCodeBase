@@ -1,0 +1,6 @@
+num = [num for num in range (100) if num%2>0]
+final = [num for num in num if num%3>0]
+print(final)
+
+output:-
+[1, 5, 7, 11, 13, 17, 19, 23, 25, 29, 31, 35, 37, 41, 43, 47, 49, 53, 55, 59, 61, 65, 67, 71, 73, 77, 79, 83, 85, 89, 91, 95, 97]
