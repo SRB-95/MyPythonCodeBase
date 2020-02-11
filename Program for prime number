@@ -1,0 +1,17 @@
+lower=int(input("Enter a lower interval::"))
+upper=int(input("Enter a upper interval::"))
+for num in range(lower,upper+1):
+    if num>1:                                  #1 is not a prime number
+        for i in range(2,num):
+            if num%i==0:
+                break
+        else:
+            print("Prime numbers are::",num)
+
+OutPut:
+Enter a lower interval::1
+Enter a upper interval::10
+Prime numbers are:: 2
+Prime numbers are:: 3
+Prime numbers are:: 5
+Prime numbers are:: 7
