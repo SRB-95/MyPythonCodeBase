@@ -1,0 +1,9 @@
+n=int(input("Enter a number::"))
+result=1    #otherwise result will be 0 
+for i in range(n,0,-1):
+    result=result*i
+print("Prime number of",i,"is::",result)
+
+Output:
+Enter a number::5
+Prime number of 1 is:: 120
