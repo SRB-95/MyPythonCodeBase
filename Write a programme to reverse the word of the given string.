@@ -1,0 +1,10 @@
+Write a programme to reverse the word of the given string.
+eg. Hello Monalisha! Welcome to Python
+o/p:olleH !ahsilanoM emocleW ot nohtyP
+
+Solution:
+
+string = "Hello Monalisha! Welcome to Python"
+new_string = string.split(" ")
+for i in new_string:
+    print (i[::-1],end=" ")
