@@ -1,0 +1,5 @@
+Q) Write a Python program to get a string which is n (non-negative integer) copies of a given string.
+
+A) def word(str, n):
+    return str*n
+print(word('hi', 3))
