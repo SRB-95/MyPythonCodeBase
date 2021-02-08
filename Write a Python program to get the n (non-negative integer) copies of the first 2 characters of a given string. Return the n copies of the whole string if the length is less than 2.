@@ -1,0 +1,11 @@
+Q) Write a Python program to get the n (non-negative integer) copies of the first 2 characters of a given string. Return the n copies of the whole string if the length is less than 2.
+
+A)
+def m_w(word, n):
+    if len(word) > n:
+        sub_word = word[0:2]
+        print(f"{sub_word*n}")
+    else:
+        n1 = int(input('Enter the value: '))
+        print(f"{word*n1}")
+print(m_w('abcdef', 2))
