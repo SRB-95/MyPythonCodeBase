@@ -1,0 +1,12 @@
+Question)
+Write a Python program to get a new string from a given string where "Is" has been added to the front. If the given string already begins with "Is" then return the string unchanged.
+
+Answer)
+N = input("Enter the word: ")
+for i in N:
+    if (N[0] == "I" and N[1] == "S"):
+        print(N)
+        break
+    else:
+        print('Is'+ N)
+        break
