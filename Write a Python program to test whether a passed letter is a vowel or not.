@@ -1,0 +1,9 @@
+Q) Write a Python program to test whether a passed letter is a vowel or not.
+
+Answer:
+vowel = ['a', 'e', 'i', 'o', 'u']
+str = input("Enter the letter: ")
+if str in vowel:
+    print(f"{str} is a vowel") 
+else:
+    print(f"{str} is not a vowel")
